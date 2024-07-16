@@ -1,0 +1,25 @@
+.count-down-container {
+    margin-left: 30px;
+
+    .panel-count-down {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+
+        p {
+            color: black;
+            background-color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 8px;
+            line-height: 20px;
+            font-size: 20px;
+            padding: 12px;
+            font-weight: 500;
+        }
+
+        span {
+            padding: 0 10px
+        }
+    }
+}

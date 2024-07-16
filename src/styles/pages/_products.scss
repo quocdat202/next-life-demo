@@ -1,0 +1,222 @@
+.products-container {
+
+    .header-panel-products,
+    .header-products-next-life {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .title-info {
+            span {
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 44px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+        }
+
+        .filter-button-groud {
+            button {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-slide {
+        width: 60%;
+    }
+
+    .slide-card-product {
+        width: 800px;
+
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 320px;
+            margin-left: 50px;
+
+            .desciption {
+                text-align: left;
+            }
+        }
+    }
+
+    .products-next-life {
+        margin-top: 50px;
+
+        .header-products-next-life {
+            display: flex;
+            justify-content: start
+        }
+
+        .products-nl-container {
+            display: flex;
+            justify-content: space-between;
+
+            .item-product {
+                width: 380px;
+                background-color: white;
+                border-radius: 18px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 30px;
+            }
+
+            .content-item-product {
+                display: flex;
+                flex-direction: column;
+                margin-top: 30px;
+
+                .name-item-pro {
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    padding-bottom: 10px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-bottom: 10px;
+
+                }
+            }
+        }
+    }
+
+    .bn-new-products {
+        background-image: url('../../assets/images/bn_holder_nl.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 70vh;
+        margin-top: 50px;
+
+        .content-new-products {
+            position: relative;
+            left: 3.8rem;
+            top: 10rem;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+
+        .title-banner {
+            width: 400px;
+            margin-bottom: 20px;
+
+            p {
+                font-size: 44px;
+                font-weight: 600;
+                color: white;
+            }
+        }
+    }
+
+    .tablet-products-container {
+        margin-top: 50px;
+
+        .tablet-products-panel {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .tablet-products {
+            width: 280px;
+            flex-basis: calc(25% - 20px);
+        }
+
+    }
+
+    .price-product {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 45px;
+        }
+
+        del {
+            font-size: 18px;
+            font-weight: 500;
+            color: #CECECE;
+        }
+    }
+
+    .accessory-banner {
+        background-image: url('../../assets/images/bn_accessory.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 70vh;
+    }
+
+    .slide-card-accessory {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 18px;
+        padding: 0 30px 30px 30px;
+        box-shadow: 2px 4px 12px 0px #00000014;
+
+    }
+
+    .card-content-accessory {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+
+        .category-title {
+            font-size: 12px;
+            font-weight: 400;
+            color: #BF4800;
+            margin-bottom: 10px;
+        }
+
+        .accessory-name {
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,0 +1,287 @@
+.main-panel-menu-list {
+    background-color: #ffffff;
+    box-shadow: -5px 4px 10px 0 rgb(226, 225, 225);
+    // height: 100%;
+}
+
+.col-no-padding {
+    box-sizing: border-box;
+}
+
+
+
+.main-panel-menu {
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #f2f2f2;
+}
+
+.pro-list-item:hover .pro-list-item-text {
+    color: #ffffff;
+}
+
+.pro-list-item-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 12px;
+}
+
+.pro-list-item {
+    height: 50px;
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+    text-align: left;
+    padding: 7px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.panel-pro-item:hover {
+    background-color: #3f4fc3;
+}
+
+.pro-list-item:hover .pro-list-item-icon {
+    color: #ffffff;
+}
+
+.pro-list-item:hover .pro-list-item-text {
+    color: #ffffff;
+}
+
+.pro-list-item-icon {
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+.pro-list-item-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 12px;
+}
+
+.menu-list-item {
+    height: 50px;
+    border: 1px solid #f2f2f2;
+
+    .panel-pro-item {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.menu-list-item:hover .select-panel {
+    opacity: 1;
+    visibility: visible;
+    left: 100%;
+    width: 251%;
+}
+
+.menu-list-item:hover {
+
+    .pro-list-item,
+    .pro-list-item-text {
+        color: white;
+    }
+}
+
+.select-panel {
+    background-color: #ffffff;
+    // width: 500%;
+    position: absolute;
+    left: 117%;
+    top: 0;
+    height: 100%;
+    z-index: 20;
+    opacity: 0;
+    visibility: hidden;
+    overflow: auto;
+    transition: 0.2s all;
+    margin-left: 10px;
+    // box-shadow: -1px 0 10px 0 rgb(141, 139, 139);
+}
+
+.container12Col {
+    width: 100%;
+    display: block;
+}
+
+.container12Col.wide {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.row-12-no-margin {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-panel-row {
+    height: 100%;
+}
+
+.select-panel-center {
+    padding: 14px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.col-no-padding {
+    box-sizing: border-box;
+}
+
+.c-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.select-panel-col {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: auto;
+    width: auto;
+}
+
+.select-panel-col-item {
+    padding: 3px 20px;
+    font-size: 13px;
+    line-height: 1.33;
+    color: rgb(82, 80, 80);
+}
+
+.select-panel-col-title {
+    color: #3f4fc3 !important;
+    font-weight: 500;
+}
+
+.select-panel-col-item {
+    padding: 3px 20px;
+    font-size: 13px;
+    line-height: 1.33;
+    color: rgb(82, 80, 80);
+}
+
+.holder-text {
+    span {
+        font-size: 44px;
+        line-height: 60px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+}
+
+.holder-card {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .card-item {
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    span {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 45px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .card-content-left {
+        height: 605px;
+        display: flex;
+        flex-direction: column;
+
+        .card-desciption {
+            width: 232px;
+            text-align: left;
+            margin: 70px auto auto 35px;
+        }
+
+        .holder-img-left {
+            margin-top: auto;
+        }
+    }
+
+    .card-content-right {
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .content-righ-top,
+        .content-righ-bottom {
+            display: flex;
+            justify-content: space-around;
+
+            .item-card-right-top,
+            .item-card-right-bottom {
+                width: 395px;
+                height: 290px;
+                display: flex;
+                flex-direction: column;
+
+                .card-desciption {
+                    width: 222px;
+                    text-align: left;
+                    margin: 20px auto 0 30px;
+                }
+
+                .holder-img-right {
+                    margin-top: auto;
+                }
+
+                .card-desciption-bottom {
+                    width: 300px;
+                    text-align: left;
+                    position: relative;
+                    bottom: 45px;
+                    left: 50px;
+                }
+            }
+
+            .card-img-right {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .card-desciption-accessory {
+                    text-align: left;
+                    padding-left: 50px;
+                }
+            }
+        }
+
+        .img-format-top {
+            margin-left: 150px;
+        }
+
+    }
+}
