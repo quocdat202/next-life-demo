@@ -71,8 +71,7 @@ export default function Products() {
                         </div>
                     </div>
                     <Swiper
-                        slidesPerView={'auto'}
-                        centeredSlides={true}
+                        slidesPerView={2}
                         spaceBetween={30}
                         pagination={{
                             clickable: true,
@@ -81,7 +80,7 @@ export default function Products() {
                     >
                         <SwiperSlide className='slide-card-product item-card-product'>
                             <Image
-                                style={{ width: '250px', marginRight: 30 }}
+                                style={{ width: '250px' }}
                                 className="holder-img-right"
                                 src={product_ex_img}
                                 alt="Picture of the author"
@@ -302,8 +301,8 @@ export default function Products() {
                         </div>
                     </div>
                     <Swiper
-                        slidesPerView={'auto'}
-                        centeredSlides={true}
+                        // centeredSlides={true}
+                        slidesPerView={3}
                         spaceBetween={30}
                         pagination={{
                             clickable: true,

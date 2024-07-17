@@ -15,14 +15,12 @@ export default function Footer() {
                 <p>Không bỏ lỡ những khuyến mãi khác</p>
                 <span>Đăng ký nhận tin nhắn để cập nhật những ưu đãi tuyệt vời và những món quà đặc biệt từ chúng tôi.</span>
                 <Image
-                    style={{ width: '390px', height: '180px' }}
+                    style={{ width: '390px', height: '180px', marginBottom: 30 }}
                     src={top_ft_img}
                     alt="Picture"
                 />
-                {/* <div style={{ display: 'flex', alignItems: 'center', padding: '20px', width: '550px' }}>
-                    <Input placeholder="Vui lòng nhập Email" style={{ borderRadius: '30px 0 0 30px', borderRight: 'none' }} />
-                    <Button type="primary" style={{ borderRadius: '0 30px 30px 0', fontSize: '16px' }}>Đăng ký</Button>
-                </div> */}
+                <Input maxLength={40} className='input-email' placeholder="Vui lòng nhập Email" />
+                <Button className='btn-register' >Đăng ký</Button>
             </div>
             <div className='bottom-footer'>
                 <Image
